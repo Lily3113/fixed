@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# Trebox Finance - Official Website
 
-## Project info
+This is the official web platform for **Trebox Finance**, a microfinance and loans company based in Zimbabwe. The platform provides users with access to affordable personal, agricultural, education, and business loans.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Vision & Slogan
+> **"Trebox Finance: Where your future is our treasure."**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+* **Loan Packages:** Detailed information on Collateral Based, Salary Based, and Agriculture loans.
+* **Invoice Discounting:** Specialized financial tools for businesses to manage cash flow.
+* **Eligibility Checker:** Integrated tool for users to verify loan requirements.
+* **Admin Dashboard:** A secure portal for administrators to manage applications and client data.
+* **Responsive Design:** Optimized for mobile, tablet, and desktop users across Zimbabwe.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Frontend:** HTML5, CSS3, JavaScript (or Framework like React/Next.js)
+* **Backend/Database:** [Firebase](https://firebase.google.com/) (Realtime Database / Firestore)
+* **Hosting:** [Specify Hosting, e.g., Firebase Hosting, Vercel, or Local Zimbabwean Host]
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔐 Admin & Data Management
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+As per the system architecture, all submission data and user inquiries are synchronized with **Firebase**.
 
-Follow these steps:
+* **Data Source:** The Admin panel fetches all real-time data directly from the Firebase collections.
+* **Authentication:** Admin access is restricted via Firebase Auth to ensure the security of sensitive financial data.
+* **Handling Leads:** New loan applications are updated instantly in the admin view for fast approval processing.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📦 Installation & Setup
 
-# Step 3: Install the necessary dependencies.
-npm i
+To run this project locally:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/trebox-finance.git](https://github.com/your-username/trebox-finance.git)
+    ```
+2.  **Navigate to the directory:**
+    ```bash
+    cd trebox-finance
+    ```
+3.  **Configure Firebase:**
+    * Create a `.env` file in the root directory.
+    * Add your Firebase configuration keys:
+    ```env
+    FIREBASE_API_KEY=your_key
+    FIREBASE_AUTH_DOMAIN=treboxfinance.firebaseapp.com
+    FIREBASE_PROJECT_ID=treboxfinance
+    ```
+4.  **Install dependencies & Start:**
+    ```bash
+    npm install
+    npm start
+    ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📞 Contact & Support
 
-**Use GitHub Codespaces**
+* **Website:** [treboxfinance.co.zw](https://treboxfinance.co.zw/)
+* **Location:** Harare & Bulawayo, Zimbabwe
+* **Developer Note:** Website Upgrade by Joseph Marlon.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+© 2026 Trebox Finance. All Rights Reserved.
